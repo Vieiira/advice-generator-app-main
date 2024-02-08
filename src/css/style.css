@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+    text-align: center;
+
+    color: var(--text-color);
+    background-color: var(--advice-card-color);
+
+
+    height: 250px;
+    width: 400px;
+}
+
+.conselhos{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.titulo{
+    color: var(--advice-dice-color);
+    padding-top: 10px
+}
+
+.conselhos p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+
+
+.botao:hover{
+    background-color: var(--advice-dice-color);
+}
+
+.fundo-botao{
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px #f5f5f5; 
+    width: 100%;   
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    }
+
+    .container-botao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: var(--advice-dice-color);
+        border-radius: 80%;
+        position: relative;
+        top: 30px;
+    }
